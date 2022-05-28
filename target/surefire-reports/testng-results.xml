@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mysuite" duration-ms="1015" started-at="2022-05-27T14:11:47Z" finished-at="2022-05-27T14:11:48Z">
+    <groups>
+    </groups>
+    <test name="mytest" duration-ms="1015" started-at="2022-05-27T14:11:47Z" finished-at="2022-05-27T14:11:48Z">
+      <class name="com.test.cases.carProduct">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.cases.carProduct@dfd3711]" name="beforeTest" is-config="true" duration-ms="321" started-at="2022-05-27T14:11:47Z" description="测试准备工作" finished-at="2022-05-27T14:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="logingetUser()[pri:0, instance:com.test.cases.carProduct@dfd3711]" name="logingetUser" duration-ms="675" started-at="2022-05-27T14:11:48Z" description="用户登录" finished-at="2022-05-27T14:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logingetUser -->
+      </class> <!-- com.test.cases.carProduct -->
+    </test> <!-- mytest -->
+  </suite> <!-- mysuite -->
+</testng-results>
