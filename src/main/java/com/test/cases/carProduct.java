@@ -14,6 +14,13 @@ import java.io.IOException;
 
 public class carProduct {
 
+
+    /**
+     *
+     *  git config --global --unset http.proxy
+     *  启动 jenkins：     nohup java -jar jenkins.war --httpPort=8899 &
+     */
+
     @BeforeTest(description = "测试准备工作")
     public void beforeTest(){
         TestConfig.getUserUrl = configFile.getUrl(InterfaceName.GETUSER);
